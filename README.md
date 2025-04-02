@@ -1,10 +1,10 @@
-# 🌿 Plant Species Classification using ResNet50  
+# Plant Species Classification using ResNet50  
 
 This repository contains a **Jupyter Notebook** for classifying plant species using **ResNet50**, a powerful deep learning model. The notebook uses **transfer learning** to achieve high accuracy while reducing training time.
 
 ---
 
-## 📌 Features  
+##  Features  
 
 - **Pretrained ResNet50 Model** – Leverages ImageNet-trained weights for efficient feature extraction.  
 - **Dataset Preprocessing** – Includes resizing, normalization, and augmentation techniques.  
@@ -15,9 +15,9 @@ This repository contains a **Jupyter Notebook** for classifying plant species us
 
 ---
 
-## 📜 Detailed Explanation of Each Step  
+##  Detailed Explanation of Each Step  
 
-### 1️⃣ Load and Preprocess Data  
+### 1️ Load and Preprocess Data  
 
 ✔ **Load Dataset**  
    - The dataset consists of multiple plant species images.  
@@ -45,7 +45,7 @@ This repository contains a **Jupyter Notebook** for classifying plant species us
 
 ---
 
-### 2️⃣ Set Up ResNet50 Model for Transfer Learning  
+### 2️ Set Up ResNet50 Model for Transfer Learning  
 
 ✔ **Load Pretrained ResNet50**  
    - Uses Keras' **ResNet50** model with pretrained weights from ImageNet.  
@@ -66,7 +66,7 @@ This repository contains a **Jupyter Notebook** for classifying plant species us
 
 ---
 
-### 3️⃣ Fine-Tune the Model  
+### 3️ Fine-Tune the Model  
 
 ✔ **Unfreeze Select Layers**  
    - Some deeper layers of ResNet50 are unfrozen for **fine-tuning**.  
@@ -82,7 +82,7 @@ This repository contains a **Jupyter Notebook** for classifying plant species us
 
 ---
 
-### 4️⃣ Train and Evaluate Performance  
+### 4️ Train and Evaluate Performance  
 
 ✔ **Training Process**  
    - The model is trained on **GPU (if available)** for faster computation.  
@@ -102,7 +102,7 @@ This repository contains a **Jupyter Notebook** for classifying plant species us
 
 ---
 
-### 5️⃣ Visualize Results  
+### 5️ Visualize Results  
 
 ✔ **Plot Training & Validation Accuracy**  
    - Helps in understanding if the model is improving or overfitting.  
@@ -119,7 +119,7 @@ This repository contains a **Jupyter Notebook** for classifying plant species us
 
 ---
 
-### 6️⃣ Predict on New Images  
+### 6️ Predict on New Images  
 
 ✔ **Load a New Image**  
    - An unseen plant image is loaded for testing.  
